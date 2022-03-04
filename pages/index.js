@@ -191,7 +191,7 @@ export default function Home() {
             >
               <LinearProgress />
             </Box>
-            <Spinner />
+            {/* <Spinner /> */}
           </Stack>
         )}
       </Box>
