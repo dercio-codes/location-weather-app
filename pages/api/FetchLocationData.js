@@ -1,6 +1,6 @@
 import useGeoLocation from "../../hooks/useGeoLocation";
 
-async function FetchLocationWeather({ location }) {
+async function FetchLocationWeather() {
   const location = useGeoLocation();
   const latitude = location.coordinates.lat;
   const longitude = location.coordinates.lng;
